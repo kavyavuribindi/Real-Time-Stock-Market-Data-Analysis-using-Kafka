@@ -5,13 +5,14 @@ In this project, I've executed an End-To-End Data Engineering Project on Real-Ti
 
 I've done data production, Kafka cluster setup, data consumption, storage in Amazon S3, building a data catalog, and data analysis using SQL with Amazon Athena.
 
+## Architecture 
+<img src="Architecture_Kafka_Stock_Market_Project.png">
+
 ## Prerequisites:
 **Hardware:** Laptop and stable internet connection.  
 **Software:** Python with Jupyter Notebook installed.  
 **Cloud Services:** AWS account for storing data in S3, hosting Kafka servers on EC2, running crawlers, and querying data with Amazon Athena.
 
-## Architecture 
-<img src="Architecture_Kafka_Stock_Market_Project.png">
 
 ## Technology Used
 - Programming Language - Python
@@ -26,7 +27,7 @@ I've done data production, Kafka cluster setup, data consumption, storage in Ama
 ## Steps to Execute the Project:
 **Setup Prerequisites:** Ensure we have the necessary hardware, software, and AWS account set up.  
 **Data Production:** Use Python to produce stock market data.  
-**Kafka Cluster Setup:** Set up a Kafka cluster on AWS EC2. 
+**Kafka Cluster Setup:** Set up a Kafka cluster on AWS EC2.   
 **Data Consumption:** Consume data from the Kafka broker.  
 **Data Storage:** Store the consumed data onto Amazon S3.  
 **Data Catalog:** Crawl the stored data in S3 to build a data catalog.  
